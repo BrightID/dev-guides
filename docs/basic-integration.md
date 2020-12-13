@@ -4,7 +4,7 @@
 This guide shows you how to let users link their BrightIDs to your app so you can check their verification status.
 
 Other options for integrating BrightID not covered include
-* Verifying community members through the Discord unique app.
+* Verifying community members through the [Discord unique bot](https://github.com/ShenaniganDApp/brightid-discord-bot).
 * Tightly integrating BrightID connection-making into your app using [API functions](../../node-api) so users don't have to download the BrightID app separately.
 
 ## Prerequisites
