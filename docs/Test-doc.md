@@ -1,6 +1,14 @@
-<link href="../style.css" rel="stylesheet"></link>
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+<p>okay</p>
 
 # Integration Quick-Start
+
+## should be grey
 
 1. Register your app with the BrightID network.
 
