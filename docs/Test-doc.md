@@ -8,8 +8,6 @@ p {color:blue;}
 
 # Integration Quick-Start
 
-## should be grey
-
 1. Register your app with the BrightID network.
 
 Before users of your app can link it to their BrightID
