@@ -96,7 +96,7 @@ If the optional `timestamp` parameter is present (allowed values:`seconds` or `m
 ## Sponsoring users
 A user must be "sponsored" before your app can [query their verification](#querying-verifications) status. This is done by purchasing sponsorships and assigning them to your app.
 
-An SDK will help you create and send a "sponsor" operation to a BrightID node for a user (identified by the `contextId`).
+An SDK (like [this one](https://github.com/acolytec3/brightIdSDK/blob/master/docs/modules/_src_appmethods_.md#const-sponsor)) will help you create and send a "sponsor" operation to a BrightID node for a user (identified by the `contextId`).
 
 ### Purchasing sponsorships
 You can purchase sponsorships from the [sponsorship dashboard](https://sp.brightid.org) and assign them to a [registered app](https://dev.brightid.org/#step-1). You can also find out how to purchase [subs (discounted sponsorships)](https://medium.com/brightid/what-value-do-subscriptions-subs-have-for-applications-49b7602aa228) at the sponsorship dashboard.
