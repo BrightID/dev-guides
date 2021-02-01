@@ -47,7 +47,7 @@ Render the link using the following format
 
 using the [values described above](#format-the-universal-link).
 
-BrightID SDKs are available that can generate both regular links and QR images.
+[BrightID SDKs](#sdks-and-utilities) are available that can generate both regular links and QR images.
 
 ## Querying Verifications
 
@@ -96,7 +96,7 @@ If the optional `timestamp` parameter is present (allowed values:`seconds` or `m
 ## Sponsoring users
 A user must be "sponsored" before your app can [query their verification](#querying-verifications) status. This is done by purchasing sponsorships and assigning them to your app.
 
-An SDK (like [this one]( https://github.com/acolytec3/brightid_test_app)) will help you create and send a "sponsor" operation to a BrightID node for a user (identified by the `contextId`).
+[An SDK](#sdks-and-utilities) will help you create and send a "sponsor" operation to a BrightID node for a user (identified by the `contextId`).
 
 ### Purchasing sponsorships
 You can purchase sponsorships from the [sponsorship dashboard](https://sp.brightid.org) and assign them to a [registered app](https://dev.brightid.org/#step-1). You can also find out how to purchase [subs (discounted sponsorships)](https://medium.com/brightid/what-value-do-subscriptions-subs-have-for-applications-49b7602aa228) at the sponsorship dashboard.
@@ -116,5 +116,9 @@ The following query will return your app's `unusedSponsorships` count.
   }
 }
 ```
+## SDKs and Utilities
+* [Javascript](https://www.npmjs.com/package/brightid_sdk)
+* [Python](https://github.com/PooyaFekri/python-brightid)
+* [Test app to test linking, verifying, and sponsoring](https://github.com/acolytec3/brightid_test_app)
 
-![](../assets/images/neurons-white-bg.png)
+
