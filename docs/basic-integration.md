@@ -120,5 +120,5 @@ The following query will return your app's `unusedSponsorships` count.
 * [Javascript](https://www.npmjs.com/package/brightid_sdk)
 * [Python](https://github.com/PooyaFekri/python-brightid)
 * [Test app to test linking, verifying, and sponsoring](https://github.com/acolytec3/brightid_test_app) [Hosted here](https://acolytec3.github.io/brightid_test_app/)
-* [TweetNaCl.js Online Tool for testing creating and verifying signatures](https://tweetnacl.js.org/#/sign)
+* [TweetNaCl.js online tool to test creating and verifying signatures](https://tweetnacl.js.org/#/sign)
 
