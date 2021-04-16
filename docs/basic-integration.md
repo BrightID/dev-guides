@@ -43,7 +43,7 @@ While the above works well for presenting the link in a mobile browser, if the u
 
 Render the link using the following format
 
-    brightid://link-verification/<node_url>/<context>/<context_id>
+    brightid://link-verification/<node_url>/<context>/<context_id>/
 
 using the [values described above](#format-the-universal-link).
 
