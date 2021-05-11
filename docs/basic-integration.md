@@ -19,6 +19,12 @@ This guide assumes you have [registered an app and a context](https://dev.bright
 
 Each user of your app will need a unique identifier to serve as a `contextId`. This could be a UUID or any other url-escaped string.
 
+<!-- theme: warning -->
+
+> ### Warning
+>
+> If Ethereum addresses are used a contextIds, used the [checksummed format](https://ethsum.netlify.app/).
+
 ### Format the universal link
 
 The link is of the form
