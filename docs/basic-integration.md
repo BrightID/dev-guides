@@ -23,7 +23,7 @@ Each user of your app will need a unique identifier to serve as a `contextId`. T
 
 > ### Warning
 >
-> If Ethereum addresses are used a contextIds, used the [checksummed format](https://ethsum.netlify.app/).
+> If Ethereum addresses are used as contextIds, used the [checksummed format](https://ethsum.netlify.app/).
 
 ### Format the universal link
 
