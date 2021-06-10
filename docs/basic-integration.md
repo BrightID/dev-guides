@@ -14,6 +14,8 @@ Other options for integrating BrightID not covered include
 This guide assumes you have [registered an app and a context](https://dev.brightid.org/#step-1).
 
 ## SDKs and Utilities
+Much of what's covered in this guide can be quickly generated using an SDK.
+
 * [Javascript](https://www.npmjs.com/package/brightid_sdk)
 * [Python](https://github.com/PooyaFekri/python-brightid)
 * [Test app to test linking, verifying, and sponsoring](https://github.com/acolytec3/brightid_test_app) [Hosted here](https://acolytec3.github.io/brightid_test_app/)
