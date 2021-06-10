@@ -97,7 +97,7 @@ The following query will retrieve the `unique` status of one user referenced by 
 ```
 
 ### Parameters to request node signatures
-Having nodes sign the query result allows users to submit the signed verification to a smart contract (See [the EVM integration guide](../evm-integration.md).) or another decentralized service.
+Having nodes sign the query result allows users to submit the signed verification to a smart contract (See [the EVM integration guide](evm-integration.md).) or another decentralized service.
 
 If the optional `signed` parameter is present (allowed values: `eth` or `nacl`), a message consisting of the context and the list of contextIds will be signed by a private key belonging to the node. It will add the following elements to the returned object.
 * `sig` (the signed message)
