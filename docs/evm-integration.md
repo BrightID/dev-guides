@@ -1,4 +1,4 @@
-# EVM Integration
+# EVM integration
 
 BrightID supports clients uploading signed verifications to a smart contract that can then create a registry of verified users.
 
