@@ -6,6 +6,8 @@ Each app (also called "context") manages its own registry. An "app" in BrightID 
 
 This involves deploying a smart contract for the app  based on a BrightID smart contract template. This is useful if an app needs to check if someone is unique from within a smart contract rather than using code which can call `/verifications` on a BrightID node. A user’s client program initially uses the `/verifications` endpoint with the `signed=eth` and `timestamp=seconds` parameters to prepare the verification to send to the smart contract’s `verify` function.
 
+## Example code
+
 Please see the [github repo](https://github.com/BrightID/BrightID-SmartContract) for templates that can be deployed per app as needed.
 
 ## Registering an Ethereum address as a unique human
