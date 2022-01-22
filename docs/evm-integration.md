@@ -26,3 +26,9 @@ If there are previously used `contextIds` in the signed data returned from `/ver
 4. The client waits 5 seconds for the mapping to propagate to all BrightID nodes, then calls `/verifications`.
 5. The client calls the register function of the smart contract using the result from `/verifications`.
 6. Now the user can be looked up in the `verifications` and `history` mappings in a context’s smart contract.
+
+## Sponsoring users via a smart contract
+
+App authors deploy a smart contract that emits a `Sponsor(address)` event for each user that should be sponsored.
+
+The address of the smart contract should be added to the app's registration (contact BrightID core team for help) and BrightID nodes will listen for `Sponsor` events from that address. Most EVM compatible chains are supported.
