@@ -14,6 +14,6 @@ There is [also a branch with example code](https://github.com/BrightID/BrightID-
 
 ## Sponsoring users via a smart contract
 
-App authors deploy a smart contract that emits a `Sponsor(address)` event for each user that should be sponsored.
+App authors deploy a smart contract that emits a `Sponsor(appUserId)` event for each user that should be sponsored.
 
 The address of the smart contract should be added to the app's registration (contact BrightID core team for help) and BrightID nodes will listen for `Sponsor` events from that address. Most EVM compatible chains are supported.
