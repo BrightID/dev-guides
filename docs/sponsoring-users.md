@@ -8,7 +8,7 @@ These are the steps to add to your app's available BrightID sponsorships as seen
 Dai is better for buying Sp and Subs--especially on IDChain.
 
 ### Buy Sp or Subs
-Sp is the short name for Sponsorship tokens. Subs are another way to obtain Sp, [explained below](#Using-Subs).
+Sp is the short name for Sponsorship tokens. Subs are another way to obtain Sp, [explained below](#using-subs).
 
 Links to buy Sp and Subs on mainnet and IDChain are on the [Sponsorship Dashboard](https://sp.brightid.org/).
 
@@ -35,7 +35,7 @@ See the [sponsorship dashboard instructions](https://www.brightid.org/sponsorshi
 
 ## Sponsoring users from your code
 
-To sponsor a user, you will need the `appUserID` that you assigned to them in the linking step. See the [creating links section of the basic integration guide]().
+To sponsor a user, you will need the `appUserID` that you assigned to them in the linking step. See the [creating links section of the basic integration guide](https://dev.brightid.org/docs/guides/ZG9jOjQxNTE1NDU-basic-integration#creating-links).
 
 ### Using an SDK
 Call the SDK's `sponsor(appUserID)` function. 
