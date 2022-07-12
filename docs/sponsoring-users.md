@@ -45,7 +45,7 @@ Emit an event called `Sponsor` from a smart contract.
 
 `emit Sponsor(appUserID);`
 
-The smart contract address and network should be registered with the BrightID app registry, so BrightID nodes use to know where to listen for events.
+The smart contract address and network should be registered with the BrightID app registry, so BrightID nodes know where to listen for events.
 
 ### Testing that sponsoring worked
 [Use the API `/sponsorships` endpoint](https://dev.brightid.org/docs/node-api/b3A6NTYwNDU4MDQ-gets-sponsorship-information-of-an-app-generated-id) to check whether the user has been sponsored.
