@@ -16,8 +16,8 @@ This guide assumes you have [registered an app and a context](https://dev.bright
 ## SDKs and Utilities
 Much of what's covered in this guide can be quickly generated using an SDK.
 
-* [Javascript](https://www.npmjs.com/package/brightid_sdk)
-* [Python](https://github.com/PooyaFekri/python-brightid)
+* [Javascript](https://github.com/BrightID/brightIdSDK)
+* [Python](https://github.com/BrightID/brightid-python-sdk)
 * [Test app to test linking, verifying, and sponsoring](https://github.com/acolytec3/brightid_test_app) [Hosted here](https://acolytec3.github.io/brightid_test_app/)
 * [TweetNaCl.js online tool to test creating and verifying signatures](https://tweetnacl.js.org/#/sign)
 
