@@ -15,7 +15,7 @@ This guide assumes you have [registered an app](https://dev.brightid.org/#step-1
 
 ### Soulbound or Blind Signatures?
 
-Your app can use either Soulbound (API v5) or Blind Signatures (API v6) based on the requirements for your app. Both API versions will be supported indefinitely.
+Your app can use either Soulbound (API v5) or Blind Signatures (API v6) based on your requirements. Both API versions will be supported indefinitely.
 
 > Soulbound (API V5)
 
