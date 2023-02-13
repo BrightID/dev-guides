@@ -108,6 +108,45 @@ using the [values described above](#format-the-universal-link).
 
 ## Querying Verifications
 
+### One user
+
+The following query will retrieve the `unique` status of one user referenced by their `{appUserId}` or `{contextId}`
+
+> Blind Signatures (API V6)
+```json http
+{
+  "method": "get",
+  "url": "https://app.brightid.org/node/v6/verifications/{app}/{appUserId}",
+  "query": {
+    "signed": null,
+    "timestamp": null
+  },
+  "path": {
+    "app": "clrfund-arbitrum",
+    "appUserId": "0xdC0046B52e2E38AEe2271B6171ebb65cCD337518"
+  }
+}
+```
+
+> Soulbound (API V5)
+```json http
+{
+  "method": "get",
+  "url": "https://app.brightid.org/node/v5/verifications/{context}/{contextId}",
+  "query": {
+    "signed": null,
+    "timestamp": null
+  },
+  "path": {
+    "context": "clr.fund",
+    "contextId": "0xdC0046B52e2E38AEe2271B6171ebb65cCD337518"
+  }
+}
+```
+
+### All verifications
+
+> Soulbound (API V5) only
 The following query will retrieve all `contextIds` for a `{context}` (or just the count).
 
 ```json http
@@ -119,23 +158,6 @@ The following query will retrieve all `contextIds` for a `{context}` (or just th
   },
   "path": {
     "context": "Discord"
-  }
-}
-```
-
-The following query will retrieve the `unique` status of one user referenced by their `{contextId}`
-
-```json http
-{
-  "method": "get",
-  "url": "https://app.brightid.org/node/v5/verifications/{context}/{contextId}",
-  "query": {
-    "signed": null,
-    "timestamp": null
-  },
-  "path": {
-    "context": "clr.fund",
-    "contextId": "0xd714dd60e22bbb1cbafd0e40de5cfa7bbdd3f3c8"
   }
 }
 ```
