@@ -19,7 +19,7 @@ Your app can use either Soulbound (API v5) or Blind Signatures (API v6) based on
 
 > Soulbound (API V5)
 
-Choose the Soulbound API if you want to be able to track each user by multiple unique identifiers which they are allowed to register over time. This could allow someone to recover their account on multiple devices, or using multiple (including yet to be linked) accounts or addresses, such as Ethereum addresses, and preserve their account history. This is approach is useful if accounts are meant to keep a long-lived record of activity. It can be used to enforce permanent bans.
+Choose the Soulbound API if you want to be able to track each user by multiple unique identifiers registered over time. This could allow someone to recover their account on multiple devices, or using multiple (including yet to be linked) accounts or addresses, such as Ethereum addresses, and preserve their account history. This is approach is useful if accounts are meant to keep a long-lived record of activity. It can be used to enforce permanent bans.
 
 > Blind Signatures (API V6)
 
