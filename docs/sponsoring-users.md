@@ -35,7 +35,7 @@ See the [sponsorship dashboard instructions](https://www.brightid.org/sponsorshi
 
 ## Sponsoring users from your code
 
-To sponsor a user, you will need the `appUserID` that you assigned to them in the linking step. See the [creating links section of the basic integration guide](https://dev.brightid.org/docs/guides/ZG9jOjQxNTE1NDU-basic-integration#creating-links).
+To sponsor a user, you will need the `appUserID` that you assigned to them in the linking step. See the [creating links section of the basic integration guide](https://brightid.stoplight.io/docs/guides/ZG9jOjQxNTE1NDU-basic-integration#creating-links).
 
 ### Using an SDK
 Call the SDK's `sponsor(appUserID)` function. 
@@ -48,4 +48,4 @@ Emit an event called `Sponsor` from a smart contract.
 The smart contract address and network should be registered with the BrightID app registry, so BrightID nodes know where to listen for events.
 
 ### Testing that sponsoring worked
-[Use the API `/sponsorships` endpoint](https://dev.brightid.org/docs/node-api/b3A6NTYwNDU4MDQ-gets-sponsorship-information-of-an-app-generated-id) to check whether the user has been sponsored.
+[Use the API `/sponsorships` endpoint](https://brightid.stoplight.io/docs/node-api/b3A6NTYwNDU4MDQ-gets-sponsorship-information-of-an-app-generated-id) to check whether the user has been sponsored.
