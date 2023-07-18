@@ -7,11 +7,11 @@ This guide shows you how to let users link their BrightIDs to your app so you ca
 Other options for integrating BrightID not covered include
 
 - Verifying community members through the [Discord unique bot](https://github.com/ShenaniganDApp/brightid-discord-bot). This is the quickest path to BrightID integration.
-- Tightly integrating BrightID connection-making into your app using [API functions](https://dev.brightid.org/docs/node-api/) so users don't have to download the BrightID app separately.
+- Tightly integrating BrightID connection-making into your app using [API functions](https://stoplight.brightid.io/docs/node-api/) so users don't have to download the BrightID app separately.
 
 ## Prerequisites
 
-This guide assumes you have [registered an app](https://dev.brightid.org/#step-1).
+This guide assumes you have [registered an app](https://stoplight.brightid.io/#step-1).
 
 ### Soulbound or Blind Signatures?
 
@@ -84,7 +84,7 @@ where
 
 Present the link you've constructed to the user identified by the `appUserId` or `contextId`. When the user clicks the link, it will open their BrightID app (or ask them to install the BrightID app) and ask if they want to create a link to your app.
 
-After they link, you will be able to use the `appUserId` or `contextId` as a parameter in [BrightID Node API](https://dev.brightid.org/docs/node-api/) calls to refer to that user.
+After they link, you will be able to use the `appUserId` or `contextId` as a parameter in [BrightID Node API](https://stoplight.brightid.io/docs/node-api/) calls to refer to that user.
 
 ### Rendering the link as a QR
 
@@ -184,7 +184,7 @@ A user must be "sponsored" before your app can [query their verification](#query
 
 ### Purchasing sponsorships
 
-You can purchase sponsorships from the [sponsorship dashboard](https://sp.brightid.org) and assign them to a [registered app](https://dev.brightid.org/#step-1). You can also find out how to purchase [subs (discounted sponsorships)](https://medium.com/brightid/what-value-do-subscriptions-subs-have-for-applications-49b7602aa228) at the sponsorship dashboard.
+You can purchase sponsorships from the [sponsorship dashboard](https://sp.brightid.org) and assign them to a [registered app](https://stoplight.brightid.io/#step-1). You can also find out how to purchase [subs (discounted sponsorships)](https://medium.com/brightid/what-value-do-subscriptions-subs-have-for-applications-49b7602aa228) at the sponsorship dashboard.
 
 ### Already sponsored
 
