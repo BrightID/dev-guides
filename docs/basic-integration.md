@@ -175,31 +175,3 @@ If the optional `signed` parameter is present (allowed values: `eth` or `nacl`),
 #### `timestamp` parameter
 
 If the optional `timestamp` parameter is present (allowed values:`seconds` or `milliseconds`), a `timestamp` element will be added to the returned object.
-
-## Sponsoring users
-
-A user must be "sponsored" before your app can [query their verification](#querying-verifications) status. This is done by purchasing sponsorships and assigning them to your app.
-
-[An SDK](#sdks-and-utilities) will help you create and send a "sponsor" operation to a BrightID node for a user (identified by the `contextId`).
-
-### Purchasing sponsorships
-
-You can purchase sponsorships from the [sponsorship dashboard](https://sp.brightid.org) and assign them to a [registered app](https://stoplight.brightid.io/#step-1). You can also find out how to purchase [subs (discounted sponsorships)](https://medium.com/brightid/what-value-do-subscriptions-subs-have-for-applications-49b7602aa228) at the sponsorship dashboard.
-
-### Already sponsored
-
-If a user was already sponsored by another app, you don't have to sponsor them again. If you attempt to sponsor an already sponsored user, nothing will happen--another sponsorship won't be spent.
-
-### Checking your app's unused sponsorship balance
-
-The following query will return your app's `unusedSponsorships` count.
-
-```json http
-{
-  "method": "get",
-  "url": "https://app.brightid.org/node/v5/apps/{app}",
-  "path": {
-    "app": "clr.fund"
-  }
-}
-```
