@@ -51,7 +51,7 @@ Each user of your app will need a unique identifier to serve as a `appUserId`. T
 
 ### Format the universal link
 
-SDKs can be used to generate the links needed. The link format will be slightly different depending on whether you're using Soulbound (API v5) or Blind Signatures (API v6)
+SDKs can be used to generate the links needed. The link format will be slightly different depending on whether you're using Soulbound (API v5) or Blind Signatures (API v6).
 
 #### Blind Signature (API V6)
 
